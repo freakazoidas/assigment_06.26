@@ -54,9 +54,10 @@ body {
   overflow: hidden;
   float: right;
 }
-.middle_header h4 {
+.pink_bold {
   color: #ff3998;
   font-weight: bold;
+  font-size: smaller;
 }
 
 .header_content p {
@@ -107,6 +108,8 @@ main {
   flex-direction: row;
   justify-content: space-between;
 }
+
+/* NFT Section  */
 .ntf_shop p {
   width: 90%;
   color: #555555;
@@ -115,6 +118,7 @@ main {
 .all_NFT_container {
   width: 90vw;
   padding-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: flex-start;
   gap: 30px;
@@ -185,4 +189,32 @@ main {
   color: #777777;
   text-align: right;
   grid-area: 3 / 2 / 4 / 3;
+}
+/* NFT Section end */
+
+/* Second banner, lady in Green */
+hr {
+  padding: 0;
+  margin-top: 0;
+  width: 100%;
+  border-top: 1px solid #ffffff;
+}
+
+.banner2_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner2_container p {
+  color: #555555;
+  padding-bottom: 40px;
+}
+.banner2_container h1 {
+  font-weight: bold;
+}
+.banner2_image {
+  width: 45vh;
+  display: flex;
+  justify-content: center;
 }
