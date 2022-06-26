@@ -1,11 +1,12 @@
 body {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding-top: 40px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .top_header {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,26 +21,62 @@ body {
   color: #555555;
 }
 
+.header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .top_header nav a:nth-last-of-type(1) {
   color: #ff3998;
-}
-
-.middle_header img {
-  width: 300px;
 }
 
 .middle_header {
   padding-top: 80px;
   display: flex;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.header_content {
+  /* width: 6 0%; */
+  padding-right: 50px;
+}
+.purple_snowman {
+  width: 80%;
+  overflow: hidden;
 }
 
+.purple_snowman img {
+  width: 50vw;
+  max-width: 600px;
+  position: absolute;
+  right: 30px;
+  overflow: hidden;
+  float: right;
+}
 .middle_header h4 {
   color: #ff3998;
   font-weight: bold;
 }
 
+.header_content p {
+  color: #555555;
+  margin-bottom: 40px;
+}
+
 .middle_header h1 {
   font-weight: bold;
   font-size: 96px;
+  margin: 5px auto;
+}
+
+.sign_up {
+  font-weight: bold;
+  padding: 10px 30px;
+  text-decoration: none;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg, rgb(245, 90, 0), rgba(37, 255, 208, 0.774))
+      border-box;
+  border: 2px solid transparent;
+  border-radius: 50px;
 }
