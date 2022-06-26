@@ -72,11 +72,21 @@ body {
 
 .sign_up {
   font-weight: bold;
-  padding: 10px 30px;
+  padding: 15px 35px;
   text-decoration: none;
   background: linear-gradient(#fff, #fff) padding-box,
     linear-gradient(45deg, rgb(245, 90, 0), rgba(37, 255, 208, 0.774))
       border-box;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   border-radius: 50px;
+}
+
+.banner {
+  background-image: url("assets/assets/background.svg");
+  background-color: #cccccc;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 70px 0px 25px 40px;
+  margin-top: 200px;
+  margin-bottom: 70px;
 }
