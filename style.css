@@ -4,7 +4,7 @@ body {
   padding-top: 40px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Header start  */
 .top_header {
   margin: 0 auto;
   display: flex;
@@ -38,7 +38,6 @@ body {
   justify-content: space-between;
 }
 .header_content {
-  /* width: 6 0%; */
   padding-right: 50px;
 }
 .purple_snowman {
@@ -102,14 +101,15 @@ main {
 .company_logos {
   padding: 0 10px;
   margin-bottom: 50px;
-  width: 90%;
+  width: 95%;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
+  align-self: center;
   justify-content: space-between;
 }
-
-/* NFT Section  */
+/* Header end */
+/* NFT Section start */
 .ntf_shop p {
   width: 90%;
   color: #555555;
@@ -218,3 +218,48 @@ hr {
   display: flex;
   justify-content: center;
 }
+/* Second banner, lady in Green end  */
+/* footer start */
+.footer_logos a img {
+  filter: invert(89%) sepia(0%) saturate(4355%) hue-rotate(334deg)
+    brightness(75%) contrast(63%);
+}
+.footer_top {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  color: #555555;
+}
+
+footer a {
+  text-decoration: none;
+  color: #555555;
+}
+.nav_container div {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  row-gap: 10px;
+}
+.nav_container {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 5px;
+}
+.nav_container div a:first-of-type {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 30px auto;
+}
+/* Footer end */
