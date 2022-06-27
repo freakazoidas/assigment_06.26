@@ -259,7 +259,114 @@ footer a {
 .footer_bottom {
   display: flex;
   justify-content: space-between;
-
+  color: #999999;
   margin: 30px auto;
 }
 /* Footer end */
+/* Desktop style end */
+
+/* Mobile device style start */
+.top_header nav img {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  /* Burger added */
+  .top_header nav img {
+    width: 20px;
+    display: flex;
+    filter: invert(89%) sepia(0%) saturate(4355%) hue-rotate(334deg)
+      brightness(75%) contrast(63%);
+  }
+  .top_header nav a:not(:nth-of-type(1)) {
+    display: none;
+  }
+  nav {
+    display: flex;
+  }
+  /* burger end */
+  /* company logo wrap start */
+  .company_logos {
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+  }
+
+  .company_logos img {
+    padding-bottom: 5px;
+  }
+  /* company logo wrap end */
+  /* launch footer hide */
+  .footer_bottom p:last-child {
+    display: none;
+  }
+  /* launch footer hide end*/
+  /* footer nav wrap start  */
+  .footer_top {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .nav_container {
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .nav_container div:nth-of-type(odd) {
+    flex-basis: 40%;
+    justify-items: flex-start;
+  }
+
+  .nav_container div:nth-of-type(even) {
+    flex-basis: 40%;
+    justify-items: flex-start;
+  }
+  .nav_container div {
+    padding-top: 15px;
+  }
+  /* footer nav wrap end  */
+  /* banner green lady (and others) fix */
+  body,
+  html,
+  header {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+.top_header {
+  width: 90%;
+  margin 0 auto;
+}
+.middle_header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.banner {border-radius: 0px;
+padding-left: 10px;
+padding-bottom: 10px;
+margin-bottom: 20px;}
+.header_content h1 {font-size: xx-large;}
+.company_logos {margin-bottom: 10px;}
+.all_NFT_container {padding-top: 10px;}
+.banner2_container {padding: 0 0px 0 10px}
+.banner2_text {align-self: flex-start;}
+  .banner2_image {
+    width: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+  }
+  .purple_snowman img{
+    width: 45vh;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: absolute;
+    float: none;
+    right: -120px;
+    bottom: 200px;
+
+
+  }
+/* mobile device screen fix end */
