@@ -1,0 +1,372 @@
+body {
+  width: 90vw;
+  margin: 0 auto;
+  padding-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Header start  */
+.top_header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top_header nav a {
+  text-decoration: none;
+  padding-left: 15px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  color: #555555;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top_header nav a:nth-last-of-type(1) {
+  color: #ff3998;
+}
+
+.middle_header {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.header_content {
+  padding-right: 50px;
+}
+.purple_snowman {
+  width: 80%;
+  overflow: hidden;
+}
+
+.purple_snowman img {
+  width: 50vw;
+  max-width: 600px;
+  position: absolute;
+  right: 30px;
+  overflow: hidden;
+  float: right;
+}
+.pink_bold {
+  color: #ff3998;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.header_content p {
+  color: #555555;
+  margin-bottom: 40px;
+}
+
+.middle_header h1 {
+  font-weight: bold;
+  font-size: 96px;
+  margin: 5px auto;
+}
+
+.sign_up {
+  font-weight: bold;
+  padding: 15px 35px;
+  text-decoration: none;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg, rgb(245, 90, 0), rgba(37, 255, 208, 0.774))
+      border-box;
+  border: 3px solid transparent;
+  border-radius: 50px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.banner {
+  background-image: url("assets/assets/background.svg");
+  background-color: #cccccc;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 70px 0px 25px 40px;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+
+.company_logos img {
+  max-width: 100px;
+}
+.company_logos {
+  padding: 0 10px;
+  margin-bottom: 50px;
+  width: 95%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+}
+/* Header end */
+/* NFT Section start */
+.ntf_shop p {
+  width: 90%;
+  color: #555555;
+}
+
+.all_NFT_container {
+  width: 90vw;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  overflow: auto;
+}
+.single_NFT_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.single_NFT_container img {
+  width: 290px;
+}
+.price_container {
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  align-items: center;
+  width: 290px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) repeat(3, 0);
+  grid-template-rows: repeat(3, 1fr) repeat(2, 0);
+  grid-column-gap: 0px;
+  grid-row-gap: 5px;
+}
+
+.div1_series {
+  font-size: smaller;
+  font-weight: bold;
+
+  color: #ff8139;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2_name {
+  font-size: larger;
+  font-weight: bold;
+
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div3_id {
+  color: #777777;
+  grid-area: 3 / 1 / 4 / 2;
+}
+.div4_bid {
+  font-weight: bold;
+  font-size: smaller;
+  color: #777777;
+  text-align: right;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div5_price {
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+
+  grid-area: 2 / 2 / 3 / 3;
+}
+.div5_price img {
+  max-width: 15px;
+}
+.div6_remaining {
+  color: #777777;
+  text-align: right;
+  grid-area: 3 / 2 / 4 / 3;
+}
+/* NFT Section end */
+
+/* Second banner, lady in Green */
+hr {
+  padding: 0;
+  margin-top: 0;
+  width: 100%;
+  border-top: 1px solid #ffffff;
+}
+
+.banner2_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner2_container p {
+  color: #555555;
+  padding-bottom: 40px;
+}
+.banner2_container h1 {
+  font-weight: bold;
+}
+.banner2_image {
+  width: 45vh;
+  display: flex;
+  justify-content: center;
+}
+/* Second banner, lady in Green end  */
+/* footer start */
+.footer_logos a img {
+  filter: invert(89%) sepia(0%) saturate(4355%) hue-rotate(334deg)
+    brightness(75%) contrast(63%);
+}
+.footer_top {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  color: #555555;
+}
+
+footer a {
+  text-decoration: none;
+  color: #555555;
+}
+.nav_container div {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  row-gap: 10px;
+}
+.nav_container {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 5px;
+}
+.nav_container div a:first-of-type {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+  margin: 30px auto;
+}
+/* Footer end */
+/* Desktop style end */
+
+/* Mobile device style start */
+.top_header nav img {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  /* Burger added */
+  .top_header nav img {
+    width: 20px;
+    display: flex;
+    filter: invert(89%) sepia(0%) saturate(4355%) hue-rotate(334deg)
+      brightness(75%) contrast(63%);
+  }
+  .top_header nav a:not(:nth-of-type(1)) {
+    display: none;
+  }
+  nav {
+    display: flex;
+  }
+  /* burger end */
+  /* company logo wrap start */
+  .company_logos {
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+  }
+
+  .company_logos img {
+    padding-bottom: 5px;
+  }
+  /* company logo wrap end */
+  /* launch footer hide */
+  .footer_bottom p:last-child {
+    display: none;
+  }
+  /* launch footer hide end*/
+  /* footer nav wrap start  */
+  .footer_top {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .nav_container {
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .nav_container div:nth-of-type(odd) {
+    flex-basis: 40%;
+    justify-items: flex-start;
+  }
+
+  .nav_container div:nth-of-type(even) {
+    flex-basis: 40%;
+    justify-items: flex-start;
+  }
+  .nav_container div {
+    padding-top: 15px;
+  }
+  /* footer nav wrap end  */
+  /* banner green lady (and others) fix */
+  body,
+  html,
+  header {
+    width: 100%;
+  }
+  header {
+    width: 100%;
+  }
+.top_header {
+  width: 90%;
+  margin 0 auto;
+}
+.middle_header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.banner {border-radius: 0px;
+padding-left: 10px;
+padding-bottom: 10px;
+margin-bottom: 20px;}
+.header_content h1 {font-size: xx-large;}
+.company_logos {margin-bottom: 10px;}
+.all_NFT_container {padding-top: 10px;}
+.banner2_container {padding: 0 0px 0 10px}
+.banner2_text {align-self: flex-start;}
+  .banner2_image {
+    width: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+  }
+  .purple_snowman img{
+    width: 45vh;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: absolute;
+    float: none;
+    right: -120px;
+    bottom: 200px;
+
+
+  }
+/* mobile device screen fix end */
